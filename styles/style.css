@@ -542,3 +542,80 @@ img {
 }
 /* BMI section ends here */
 
+/* meet our team section starts here */
+.meet-team-section {
+    background-color: black;
+    height: 880px;
+    margin: 10px 50px;
+    padding: 20px 100px;
+}
+.meet-team-section-box {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.meet-section-description {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.meet-section {
+    width: 50%;
+    text-align: center;
+}
+.meet-section h2 {
+    color: white;
+    font-size: 3rem;
+}
+.meet-section p {
+    color: rgba(255, 255, 255, 0.502);
+    font-size: 1rem;
+    padding-top: 20px;
+}
+.team-image-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 280px);
+    margin-top: 40px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.102);
+}
+#img-section1 {
+    background-image: url('../images/trainer1.png');
+}
+#img-section2 {
+    background-image: url('../images/trainer2.png');
+}
+#img-section3 {
+    background-image: url('../images/trainer3.png');
+}
+#img-section4 {
+    background-image: url('../images/trainer4.png');
+}
+#img-section5 {
+    background-image: url('../images/trainer5.png');
+}
+#img-section6 {
+    background-image: url('../images/trainer6.png');
+}
+.team-image-item {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.team-overlay {
+    width: 70%;
+    position: relative;
+    top: 220px;
+    left: 20px;
+}
+.team-overlay h3 {
+    color: white;
+}
+.team-overlay h5 {
+    color: rgba(252, 247, 247, 0.502);
+}
+/* meet our team section ends here */
+
