@@ -619,7 +619,57 @@ img {
 }
 /* meet our team section ends here */
 
-/* footer section */
+/* unique section starts here*/
+#quick-start {
+    background-color:rgb(163, 160, 160);
+    margin: 0 150px;
+    border-radius: 20px;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  #quick-start .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  #quick-start h2 {
+    font-size: 2.5rem;
+    color:black;
+    margin-bottom: 20px;
+  }
+  #quick-start p {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 30px;
+  }
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .step {
+    background-color:rgb(236, 213, 183);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  .step:hover {
+    transform: translateY(-10px);
+  }
+  .step h3 {
+    font-size: 1.5rem;
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  .step p {
+    font-size: 1rem;
+    color: #333;
+  }
+/* unique section ends here*/
+
+/* footer section starts here */
 .footer {
     background-color: rgb(25, 25, 25);
 }
@@ -688,3 +738,5 @@ hr {
     color: rgb(140, 140, 140);
     text-align: center;
 }
+/* footer section ends here */
+
