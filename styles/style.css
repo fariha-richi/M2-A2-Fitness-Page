@@ -264,3 +264,166 @@ img {
 }
 /* habit section ends here */
 
+/* running section starts here */
+.running-section {
+    max-width: 1160px;
+    margin: 10% auto 0 auto;
+    padding: 0 30px;
+}
+.running {
+    display: flex;
+    justify-content: space-between;
+    height: 380px;
+    padding: 60px 40px 60px 60px;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    border-radius: 20px;
+}
+.running-box {
+    max-width: 470px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.running-box h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.running-box p {
+    color: rgba(255, 255, 255, 0.502);
+    font-size: 1rem;
+    font-weight: 400;
+    height: 70px;
+    margin-top: 20px;
+}
+.running img {
+    max-width: 365px;
+    height: 325px;
+    object-fit: none;
+    object-position: 67% 30%;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+/* running section ends here */
+
+/*exercise & training section starts here */
+.training-section {
+    margin: 50px 0px;
+}
+.training-box h1 {
+    color: white;
+    font-size: 3rem;
+    padding: 20px 0px;
+}
+.training-box p {
+    color: rgba(255, 255, 255, 0.502);
+    margin-bottom: 20px;
+}
+.training-img1 {
+    /* height: 460px; */
+    display: grid;
+    grid-template-columns: .50fr 1fr .50fr;
+    grid-template-rows: repeat(1, 250px);
+    margin-top: 40px;
+}
+.training-img2 {
+    /* height: 460px; */
+    display: grid;
+    grid-template-columns: .80fr .55fr .65fr;
+    grid-template-rows: repeat(1, 250px);
+}
+.img-item {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+#img1 {
+    background-image: url('../images/exercise1.jpg');
+}
+#img2 {
+    background-image: url('../images/exercise2.png');
+}
+#img3 {
+    background-image: url('../images/exercise3.png');
+}
+#img4 {
+    background-image: url('../images/exercise4.png');
+}
+#img5 {
+    background-image: url('../images/exercise5.jpg');
+}
+#img6 {
+    background-image: url('../images/exercise6.jpg');
+}
+.exc-1,
+.exc-2,
+.exc-3,
+.exc-4,
+.exc-5,
+.exc-6 {
+    width: 100%;
+    height: 100%;
+}
+.exc-1 {
+    background-color: rgba(90, 245, 216, 0.5);
+}
+.exc-2 {
+    background-color: rgba(243, 104, 104, 0.3);
+}
+.exc-3 {
+    background-color: rgba(70, 66, 66, 0.5);
+}
+.exc-4 {
+    background-color: rgba(36, 30, 30, 0.5);
+}
+.exc-5 {
+    background-color: rgba(110, 245, 60, 0.3);
+}
+.exc-6 {
+    background-color: rgba(40, 98, 243, 0.3);
+}
+.exc-1 h3 {
+    position: relative;
+    left: 15%;
+    top: 80%;
+    width: 50%;
+}
+.exc-2 h3 {
+    position: relative;
+    top: 15%;
+    width: 50%;
+    left: 15%;
+    color: white;
+}
+.exc-3 h3 {
+    position: relative;
+    left: 15%;
+    top: 80%;
+    width: 50%;
+    color: white;   
+}
+.exc-4 h3 {
+    position: relative;
+    left: 55%;
+    top: 15%;
+    width: 50%;
+    color: white;
+}
+.exc-5 h3 {
+    position: relative;
+    left: 15%;
+    top: 80%;
+    width: 50%;
+    color: white;   
+}
+.exc-6 h3 {
+    position: relative;
+    left: 15%;
+    top: 80%;
+    width: 50%;
+    color: white;   
+}
+/* exercise & training section ends here */
